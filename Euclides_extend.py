@@ -26,4 +26,7 @@ def invers(A,B):
     x=v[i-1]
     return x
 
-print(invers(9,275))
+A=input("Ingresa primer digito: ")
+B=input("Ingresa segundo digito: ")
+print(invers(int(A),int(B)))
+
